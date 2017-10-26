@@ -1,6 +1,6 @@
 {
   "name": "the-validator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
@@ -8,6 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RSC-IoT/validator"
-  }
+    "url": "git+https://github.com/RSC-IoT/validator.git"
+  },
+  "description": "A validator so simple we could have written it twice, but decided not to. Leverages Joi for all the hard work.",
+  "bugs": {
+    "url": "https://github.com/RSC-IoT/validator/issues"
+  },
+  "homepage": "https://github.com/RSC-IoT/validator#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
 }
