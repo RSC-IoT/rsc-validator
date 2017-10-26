@@ -10,6 +10,7 @@ module.exports = class Validator {
         this.schema = Object.assign({}, this.schema, {
             [property]: validation
         })
+        return this
     }
 
     isValid(input) {
