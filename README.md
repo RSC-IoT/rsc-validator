@@ -3,7 +3,7 @@
 A validator so simple we could have written it twice, but decided not to. Leverages Joi for all the hard work.
 
 ## Step 1: Create a Custom Validator
-```
+```javascript
 const Validator = require('the-validator')
 
 class MyValidator extends Validator {
@@ -19,7 +19,7 @@ class MyValidator extends Validator {
 ```
 
 ## Step 2: Use the Validator
-```
+```javascript
 const validator = new MyValidator()
 const isValid = validator
   .requiredUserId()
